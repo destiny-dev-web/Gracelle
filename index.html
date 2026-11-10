@@ -1,0 +1,11 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>GRACELLE</title><link rel="icon" href="logo.png"><link rel="stylesheet" href="styles.css"></head><body>
+<div class="vid"><video id="hv" autoplay muted loop playsinline></video><span id="cfd"></span></div>
+<header><div class="hd"><button class="ic" onclick="dr(1)" aria-label="Menu">☰</button><div class="lg" onclick="go('home')"><img src="logo.png" alt="GRACELLE"></div><button class="ic" onclick="acct()" id="ac" aria-label="Account">👤</button><button class="ic" onclick="go('cart')" aria-label="Cart">🛒<b id="cc">0</b></button></div>
+<div class="sr">🔍<input id="q" placeholder="Search products, brands and categories" onchange="S.q=this.value;go('cat','search')"></div></header>
+<main id="main"></main>
+<footer><div class="top" onclick="scrollTo({top:0,behavior:'smooth'})">⌃<br>BACK TO TOP</div>
+<div class="fk"><a onclick="go('chat')">Chat with us</a><a onclick="go('cs')">Customer service</a><a onclick="go('contact')">Contact us</a><a onclick="go('info','Terms &amp; Conditions')">Terms &amp; Conditions</a><a onclick="go('info','Privacy Notice')">Privacy notice</a><a onclick="go('info','Cookie Notice')">Cookie notice</a><a onclick="go('cat','bf')">Black Friday</a><a onclick="go('info','Return Policy')">Return policy</a></div>
+<div class="fc" id="fc"></div>
+<div class="fc" style="color:#999">All Rights Reserved</div></footer>
+<div class="ov" id="ov" onclick="closeAll()"></div><div class="dr" id="dr"></div><div class="md" id="md"></div><div id="t"></div>
+<script src="config.js"></script><script src="app.js"></script></body></html>
